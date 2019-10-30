@@ -17,6 +17,7 @@
                 <tr>
                     <th>No.</th>
                     <th>Area</th>
+                    <th>Opciones</th>
                 </tr>
             </thead>
             <tbody>

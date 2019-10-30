@@ -66,14 +66,20 @@ table {
     background: white;
     text-align: center;
     border-collapse: collapse;
-    width: 100%;
+    width: 75%;
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
 }
 th, td{
     padding: 20px;
 }
 
 thead{
-    background-color: #246355;
+    background-color: #005180;
     border-bottom: solid 5px #0f362d;
     color: white;
 }
@@ -82,7 +88,7 @@ tr:nth-child(even){
     background: #ddd;
 }
 tr:hover{
-    background: #369681;
+    background: #00D5FF;
     color: white;
 }
 
