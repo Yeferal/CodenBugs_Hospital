@@ -43,6 +43,18 @@ public class Usuario {
         this.irtra = irtra;
     }
     
+    public void setIgss(double igss){
+        this.igss = igss;
+    }
+    
+    public void setTipo(String tipo){
+        this.tipo = tipo;
+    }
+    
+    public void setJefe(int jefe){
+        this.jefe = jefe;
+    }
+    
     public int getId(){
         return id;
     }
@@ -61,5 +73,21 @@ public class Usuario {
     
     public double getSalario(){
         return salario;
+    }
+    
+    public double getIrtra(){
+        return irtra;
+    }
+    
+    public double getIgss(){
+        return igss;
+    }
+    
+    public String getTipo(){
+        return tipo;
+    }
+    
+    public int getJefe(){
+        return jefe;
     }
 }

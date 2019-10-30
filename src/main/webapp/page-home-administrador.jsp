@@ -6,8 +6,26 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Hospital</title>
+        <link rel="stylesheet" href="css/stiloMenu.css">
     </head>
     <body>
-        <h1>Hola admin!</h1>
+        <%@include file="navegacion-administrador.html" %>
+        
+        
+        <table border="1" cellpadding="1">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Area</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
     </body>
 </html>

@@ -8,21 +8,16 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Hospital</title>
-        
+        <link rel="stylesheet" href="css/stilo.css">
     </head>
     <body>
-        <%
-        Conexion conect = new Conexion();
-        
-        %>
         <c:if test="${requestScope['error'] != null}">
             <script type="text/javascript">
                 alert("Contraseña o Usuario INCORRECTOS");
             </script>
         </c:if>
-        <%conect.conectar();%>
         <div class="login-box">
-            <h1>Inicio</h1>
+            <h1>Ingresar</h1>
             <form action="LoginSesion" method="POST">
                 <!-- USERNAME INPUT -->
                 <label for="username">CUI</label>
